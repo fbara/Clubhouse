@@ -24,6 +24,8 @@
 		64F69EC625EBF17500210277 /* UpcomingRoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F69EC525EBF17500210277 /* UpcomingRoomModel.swift */; };
 		AD5F11722707956F002BBB6B /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5F11712707956F002BBB6B /* HomeHeaderView.swift */; };
 		AD5F117427079A23002BBB6B /* UpcomingRoomsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5F117327079A23002BBB6B /* UpcomingRoomsView.swift */; };
+		AD5F11772707A2BE002BBB6B /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5F11762707A2BE002BBB6B /* RoomView.swift */; };
+		AD7962AB270B634A005BBE1B /* BottomHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7962AA270B634A005BBE1B /* BottomHomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		64F69EC525EBF17500210277 /* UpcomingRoomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingRoomModel.swift; sourceTree = "<group>"; };
 		AD5F11712707956F002BBB6B /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		AD5F117327079A23002BBB6B /* UpcomingRoomsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingRoomsView.swift; sourceTree = "<group>"; };
+		AD5F11762707A2BE002BBB6B /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
+		AD7962AA270B634A005BBE1B /* BottomHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomHomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				AD5F117327079A23002BBB6B /* UpcomingRoomsView.swift */,
+				AD5F11762707A2BE002BBB6B /* RoomView.swift */,
+				AD7962AA270B634A005BBE1B /* BottomHomeView.swift */,
 			);
 			path = HomeFeed;
 			sourceTree = "<group>";
@@ -242,10 +248,12 @@
 				64F69EBB25EBDF1900210277 /* Font.swift in Sources */,
 				64F69EA825EBD0F600210277 /* Image.swift in Sources */,
 				649A681925ED50EC00F52336 /* FeedRoom.swift in Sources */,
+				AD7962AB270B634A005BBE1B /* BottomHomeView.swift in Sources */,
 				640E0C4825EE92D9002B4102 /* FeedItem.swift in Sources */,
 				AD5F11722707956F002BBB6B /* HomeHeaderView.swift in Sources */,
 				64F69EA425EBCFE100210277 /* Colors.swift in Sources */,
 				64DAE7E625F282DE000E50C2 /* RoomViewModel.swift in Sources */,
+				AD5F11772707A2BE002BBB6B /* RoomView.swift in Sources */,
 				64F69E9325EBCB1700210277 /* ClubhouseApp.swift in Sources */,
 				AD5F117427079A23002BBB6B /* UpcomingRoomsView.swift in Sources */,
 			);

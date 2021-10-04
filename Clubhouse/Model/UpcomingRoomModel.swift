@@ -18,14 +18,14 @@ extension UpcomingRoom {
     
     static var dummyData: [UpcomingRoom] {
         [
-            UpcomingRoom(groupName: "Tech Talks",
-                              roomName: "iOS interview Questions 📝",
+            UpcomingRoom(groupName: "Frank Talks",
+                              roomName: "Frank's interview Questions 📝",
                               date: Date(timeIntervalSince1970: 1614527128)),
-            UpcomingRoom(groupName: nil,
+            UpcomingRoom(groupName: "Beginners",
                               roomName: "Welcome to Clubhouse (Beginners Guide AMA) 🎉",
                               date: Date(timeIntervalSince1970: 1614541528)),
-            UpcomingRoom(groupName: nil,
-                              roomName: "Do you have Hoil? 👀",
+            UpcomingRoom(groupName: "Eyes",
+                              roomName: "Do you have Eyes? 👀",
                               date: Date(timeIntervalSince1970: 1614548728000))
         ]
     }
