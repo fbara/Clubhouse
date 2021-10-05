@@ -89,5 +89,6 @@ struct FeedPicView: View {
 struct RoomView_Previews: PreviewProvider {
     static var previews: some View {
         RoomView(room: FeedRoom.dummyData[0])
+            .previewLayout(.sizeThatFits)
     }
 }

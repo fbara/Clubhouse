@@ -26,6 +26,8 @@
 		AD5F117427079A23002BBB6B /* UpcomingRoomsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5F117327079A23002BBB6B /* UpcomingRoomsView.swift */; };
 		AD5F11772707A2BE002BBB6B /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5F11762707A2BE002BBB6B /* RoomView.swift */; };
 		AD7962AB270B634A005BBE1B /* BottomHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7962AA270B634A005BBE1B /* BottomHomeView.swift */; };
+		AD7962AD270B8A82005BBE1B /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7962AC270B8A82005BBE1B /* ProfileHeaderView.swift */; };
+		AD7962B0270B8B2B005BBE1B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7962AF270B8B2B005BBE1B /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		AD5F117327079A23002BBB6B /* UpcomingRoomsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingRoomsView.swift; sourceTree = "<group>"; };
 		AD5F11762707A2BE002BBB6B /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
 		AD7962AA270B634A005BBE1B /* BottomHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomHomeView.swift; sourceTree = "<group>"; };
+		AD7962AC270B8A82005BBE1B /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		AD7962AF270B8B2B005BBE1B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,7 @@
 		AD5F116F27079553002BBB6B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AD7962AE270B8B22005BBE1B /* Profile */,
 				AD5F117527079A87002BBB6B /* HomeFeed */,
 				AD5F117027079560002BBB6B /* Headers */,
 			);
@@ -166,8 +171,17 @@
 				AD5F117327079A23002BBB6B /* UpcomingRoomsView.swift */,
 				AD5F11762707A2BE002BBB6B /* RoomView.swift */,
 				AD7962AA270B634A005BBE1B /* BottomHomeView.swift */,
+				AD7962AC270B8A82005BBE1B /* ProfileHeaderView.swift */,
 			);
 			path = HomeFeed;
+			sourceTree = "<group>";
+		};
+		AD7962AE270B8B22005BBE1B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AD7962AF270B8B2B005BBE1B /* ProfileView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,10 +264,12 @@
 				649A681925ED50EC00F52336 /* FeedRoom.swift in Sources */,
 				AD7962AB270B634A005BBE1B /* BottomHomeView.swift in Sources */,
 				640E0C4825EE92D9002B4102 /* FeedItem.swift in Sources */,
+				AD7962B0270B8B2B005BBE1B /* ProfileView.swift in Sources */,
 				AD5F11722707956F002BBB6B /* HomeHeaderView.swift in Sources */,
 				64F69EA425EBCFE100210277 /* Colors.swift in Sources */,
 				64DAE7E625F282DE000E50C2 /* RoomViewModel.swift in Sources */,
 				AD5F11772707A2BE002BBB6B /* RoomView.swift in Sources */,
+				AD7962AD270B8A82005BBE1B /* ProfileHeaderView.swift in Sources */,
 				64F69E9325EBCB1700210277 /* ClubhouseApp.swift in Sources */,
 				AD5F117427079A23002BBB6B /* UpcomingRoomsView.swift in Sources */,
 			);
