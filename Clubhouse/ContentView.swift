@@ -9,17 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @State private var showProfile: Bool?
+    
     var body: some View {
         
         NavigationView {
             
             ZStack(alignment: .bottom) {
                 
+                NavigationLink(destination: ProfileView(), tag: true, selection: $showProfile) {
+                    EmptyView()
+                }
+                
                 VStack {
+                    
                     HomeHeaderView { action in
                         switch action {
                         case .profile:
-                            break
+                            showProfile = true
                             
                         }
                     }
@@ -53,6 +60,10 @@ struct ContentView: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color.background)
             .ignoresSafeArea()
+            .navigationBarHidden(true)
+        }
+        .onAppear {
+            showProfile = false
         }
     }
 }

@@ -9,13 +9,21 @@ import SwiftUI
 
 struct ProfileView: View {
     
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    
     private let profilePicSize: CGFloat = 76
     
     var body: some View {
         
         ZStack {
             VStack(alignment: .leading) {
-                ProfileHeaderView()
+                
+                ProfileHeaderView { action in
+                    switch action {
+                    case .back:
+                        presentationMode.wrappedValue.dismiss()
+                    }
+                }
                 
                 Group {
                     
@@ -90,6 +98,7 @@ struct ProfileView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color.background)
         .ignoresSafeArea()
+        .navigationBarHidden(true)
         
     }
 }
